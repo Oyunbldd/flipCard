@@ -4,215 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./task1.css" />
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
+    <title>NBA Flip Cards</title>
   </head>
 
   <body>
     <div class="wrapper">
       <div class="card">
-        <input type="checkbox" id="card1" class="more" aria-hidden="true" />
+        <input type="checkbox" id="card1" class="more" />
         <div class="content">
-          <div
-            class="front"
-            style="
-              background-image: url('https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=1350&q=80');
-            ">
+          <div class="front">
             <div class="inner">
-              <h2>Cozy apartment</h2>
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </div>
-              <label for="card1" class="button" aria-hidden="true"> Details </label>
+              <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png" class="player-img" />
+              <img
+                src="https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+                class="team-logo"
+                alt="Lakers logo" />
+
+              <div class="nameplate">LEBRON JAMES</div>
+              <label for="card1" class="button">Details</label>
             </div>
           </div>
           <div class="back">
             <div class="inner">
-              <div class="info">
-                <span>5</span>
-                <div class="icon">
-                  <i class="fas fa-users"></i>
-                  <span>people</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>4</span>
-                <div class="icon">
-                  <i class="fas fa-door-open"></i>
-                  <span>rooms</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>3</span>
-                <div class="icon">
-                  <i class="fas fa-bed"></i>
-                  <span>beds</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>1</span>
-                <div class="icon">
-                  <i class="fas fa-bath"></i>
-                  <span>bath</span>
-                </div>
-              </div>
-              <div class="description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, accusamus.</p>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum nostrum ipsam ullam,
-                  reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis tenetur nemo amet
-                  temporibus, enim soluta nam, debitis.
-                </p>
-              </div>
-              <div class="location">Warsaw, Poland</div>
-              <div class="price">38€ / day</div>
-              <label for="card1" class="button return" aria-hidden="true">
-                <i class="fas fa-arrow-left"></i>
-              </label>
+              <h2>LeBron James</h2>
+              <p>Points: 27.2</p>
+              <p>Assists: 7.3</p>
+              <p>Rebounds: 7.5</p>
+              <label for="card1" class="button return">Back</label>
             </div>
           </div>
         </div>
       </div>
+
       <div class="card">
         <input type="checkbox" id="card2" class="more" />
         <div class="content">
-          <div
-            class="front"
-            style="
-              background-image: url('https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c02fb96f9cfc16d3649835b75d1b2033&auto=format&fit=crop&w=1350&q=80');
-            ">
+          <div class="front">
             <div class="inner">
-              <h2>Modern flat</h2>
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i class="far fa-star"></i>
-              </div>
-              <label for="card2" class="button" aria-hidden="true"> Details </label>
+              <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png" class="player-img" />
+              <img
+                src="https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"
+                class="team-logo"
+                alt="Clippers logo" />
+
+              <div class="nameplate">KAWHI LEONARD</div>
+              <label for="card2" class="button">Details</label>
             </div>
           </div>
           <div class="back">
             <div class="inner">
-              <div class="info">
-                <span>4</span>
-                <div class="icon">
-                  <i class="fas fa-users"></i>
-                  <span>people</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>3</span>
-                <div class="icon">
-                  <i class="fas fa-door-open"></i>
-                  <span>rooms</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>2</span>
-                <div class="icon">
-                  <i class="fas fa-bed"></i>
-                  <span>beds</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>1</span>
-                <div class="icon">
-                  <i class="fas fa-bath"></i>
-                  <span>bath</span>
-                </div>
-              </div>
-              <div class="description">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem unde ea voluptas fuga odio vel
-                  veniam eveniet, explicabo autem earum?
-                </p>
-                <ul>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-              </div>
-              <div class="location">Warsaw, Poland</div>
-              <div class="price">42€ / day</div>
-              <label for="card2" class="button return" aria-hidden="true">
-                <i class="fas fa-arrow-left"></i>
-              </label>
+              <h2>Kawhi Leonard</h2>
+              <p>Points: 23.8</p>
+              <p>Assists: 3.5</p>
+              <p>Steals: 1.7</p>
+              <label for="card2" class="button return">Back</label>
             </div>
           </div>
         </div>
       </div>
+
       <div class="card">
         <input type="checkbox" id="card3" class="more" />
         <div class="content">
-          <div
-            class="front"
-            style="
-              background-image: url('https://images.unsplash.com/photo-1529595354331-201ad3ae5e71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6114533e2d0c1c81534fe13611dbfd76&auto=format&fit=crop&w=658&q=80');
-            ">
+          <div class="front">
             <div class="inner">
-              <h2>Luxury property</h2>
-              <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-              <label for="card3" class="button" aria-hidden="true"> Details </label>
+              <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png" class="player-img" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/0/01/Golden_State_Warriors_logo.svg"
+                class="team-logo" />
+              <div class="nameplate">STEPHEN CURRY</div>
+              <label for="card3" class="button">Details</label>
             </div>
           </div>
           <div class="back">
             <div class="inner">
-              <div class="info">
-                <span>8</span>
-                <div class="icon">
-                  <i class="fas fa-users"></i>
-                  <span>people</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>7</span>
-                <div class="icon">
-                  <i class="fas fa-door-open"></i>
-                  <span>rooms</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>5</span>
-                <div class="icon">
-                  <i class="fas fa-bed"></i>
-                  <span>beds</span>
-                </div>
-              </div>
-              <div class="info">
-                <span>2</span>
-                <div class="icon">
-                  <i class="fas fa-bath"></i>
-                  <span>baths</span>
-                </div>
-              </div>
-              <div class="description">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero totam nostrum consequatur autem
-                  quae provident quos alias fugit maxime nisi labore, temporibus tempore illo natus voluptates aliquam
-                  ipsum officia quasi placeat aut facilis laudantium nam!
-                </p>
-                <p>
-                  Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt, repudiandae aspernatur explicabo numquam!
-                  Tenetur!
-                </p>
-              </div>
-              <div class="location">Cracow, Poland</div>
-              <div class="price">60€ / day</div>
-              <label for="card3" class="button return" aria-hidden="true">
-                <i class="fas fa-arrow-left"></i>
-              </label>
+              <h2>Stephen Curry</h2>
+              <p>Points: 30.1</p>
+              <p>Assists: 6.3</p>
+              <p>3PT: 42%</p>
+              <label for="card3" class="button return">Back</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <input type="checkbox" id="card4" class="more" />
+        <div class="content">
+          <div class="front">
+            <div class="inner">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg"
+                class="player-img" />
+              <img src="https://upload.wikimedia.org/wikipedia/en/6/67/Chicago_Bulls_logo.svg" class="team-logo" />
+              <div class="nameplate">MICHAEL JORDAN</div>
+              <label for="card4" class="button">Details</label>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <h2>Michael Jordan</h2>
+              <p>Points: 30.1</p>
+              <p>Championships: 6</p>
+              <p>MVPs: 5</p>
+              <label for="card4" class="button return">Back</label>
             </div>
           </div>
         </div>
